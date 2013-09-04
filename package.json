@@ -1,0 +1,23 @@
+{
+  "author": "Tim Koschützki <tim@transloadit.com> (https://transloadit.com/)",
+  "name": "node-s3-upload",
+  "description": "Can upload files to S3 using exponential back-off retries, multipart uploads for big files and exception handling",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tim-kos/node-s3-upload",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tim-kos/node-s3-upload.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "knox": "0.8.6",
+    "knox-mpu": "0.1.1",
+    "retry": "0.4.0"
+  }
+}
